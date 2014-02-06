@@ -19,7 +19,7 @@
 		EB9795B118A441920039BCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB97959918A441920039BCB2 /* UIKit.framework */; };
 		EB9795B918A441920039BCB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9795B718A441920039BCB2 /* InfoPlist.strings */; };
 		EB9795BB18A441920039BCB2 /* NerdfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9795BA18A441920039BCB2 /* NerdfeedTests.m */; };
-		EB9795C618A441A60039BCB2 /* TGCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9795C518A441A60039BCB2 /* TGCoursesViewController.m */; };
+		EB9795C918A4480F0039BCB2 /* TGCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9795C818A4480F0039BCB2 /* TGCoursesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		EB9795B618A441920039BCB2 /* NerdfeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NerdfeedTests-Info.plist"; sourceTree = "<group>"; };
 		EB9795B818A441920039BCB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB9795BA18A441920039BCB2 /* NerdfeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedTests.m; sourceTree = "<group>"; };
-		EB9795C418A441A60039BCB2 /* TGCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGCoursesViewController.h; path = ../TGCoursesViewController.h; sourceTree = "<group>"; };
-		EB9795C518A441A60039BCB2 /* TGCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGCoursesViewController.m; path = ../TGCoursesViewController.m; sourceTree = "<group>"; };
+		EB9795C718A4480F0039BCB2 /* TGCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCoursesViewController.h; sourceTree = "<group>"; };
+		EB9795C818A4480F0039BCB2 /* TGCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCoursesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 			children = (
 				EB9795A418A441920039BCB2 /* TGAppDelegate.h */,
 				EB9795A518A441920039BCB2 /* TGAppDelegate.m */,
-				EB9795C418A441A60039BCB2 /* TGCoursesViewController.h */,
-				EB9795C518A441A60039BCB2 /* TGCoursesViewController.m */,
+				EB9795C718A4480F0039BCB2 /* TGCoursesViewController.h */,
+				EB9795C818A4480F0039BCB2 /* TGCoursesViewController.m */,
 				EB9795A718A441920039BCB2 /* Images.xcassets */,
 				EB97959C18A441920039BCB2 /* Supporting Files */,
 			);
@@ -247,7 +247,7 @@
 			files = (
 				EB9795A218A441920039BCB2 /* main.m in Sources */,
 				EB9795A618A441920039BCB2 /* TGAppDelegate.m in Sources */,
-				EB9795C618A441A60039BCB2 /* TGCoursesViewController.m in Sources */,
+				EB9795C918A4480F0039BCB2 /* TGCoursesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
