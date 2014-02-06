@@ -7,12 +7,20 @@
 //
 
 #import "TGAppDelegate.h"
+#import "TGCoursesViewController.h"
 
 @implementation TGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    TGCoursesViewController *cvc = [[TGCoursesViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:cvc];
+    
+    self.window.rootViewController = masterNav;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
