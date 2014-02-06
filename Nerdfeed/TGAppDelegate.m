@@ -8,6 +8,7 @@
 
 #import "TGAppDelegate.h"
 #import "TGCoursesViewController.h"
+#import "TGWebViewController.h"
 
 @implementation TGAppDelegate
 
@@ -18,6 +19,9 @@
     TGCoursesViewController *cvc = [[TGCoursesViewController alloc] initWithStyle:UITableViewStylePlain];
     
     UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:cvc];
+    
+    TGWebViewController *wvc = [[TGWebViewController alloc] init];
+    cvc.webViewController = wvc;
     
     self.window.rootViewController = masterNav;
     

@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class TGWebViewController;
+
 @interface TGCoursesViewController : UITableViewController
+
+@property (nonatomic) TGWebViewController *webViewController;
 
 @end

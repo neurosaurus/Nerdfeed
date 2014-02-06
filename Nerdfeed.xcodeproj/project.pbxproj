@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB28906F18A44F4F001D964F /* TGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB28906E18A44F4F001D964F /* TGWebViewController.m */; };
 		EB97959618A441920039BCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB97959518A441920039BCB2 /* Foundation.framework */; };
 		EB97959818A441920039BCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB97959718A441920039BCB2 /* CoreGraphics.framework */; };
 		EB97959A18A441920039BCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB97959918A441920039BCB2 /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB28906D18A44F4F001D964F /* TGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGWebViewController.h; sourceTree = "<group>"; };
+		EB28906E18A44F4F001D964F /* TGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGWebViewController.m; sourceTree = "<group>"; };
 		EB97959218A441920039BCB2 /* Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nerdfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97959518A441920039BCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB97959718A441920039BCB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 				EB9795A518A441920039BCB2 /* TGAppDelegate.m */,
 				EB9795C718A4480F0039BCB2 /* TGCoursesViewController.h */,
 				EB9795C818A4480F0039BCB2 /* TGCoursesViewController.m */,
+				EB28906D18A44F4F001D964F /* TGWebViewController.h */,
+				EB28906E18A44F4F001D964F /* TGWebViewController.m */,
 				EB9795A718A441920039BCB2 /* Images.xcassets */,
 				EB97959C18A441920039BCB2 /* Supporting Files */,
 			);
@@ -245,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB28906F18A44F4F001D964F /* TGWebViewController.m in Sources */,
 				EB9795A218A441920039BCB2 /* main.m in Sources */,
 				EB9795A618A441920039BCB2 /* TGAppDelegate.m in Sources */,
 				EB9795C918A4480F0039BCB2 /* TGCoursesViewController.m in Sources */,
@@ -450,6 +456,7 @@
 				EB9795C018A441920039BCB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB9795C118A441920039BCB2 /* Build configuration list for PBXNativeTarget "NerdfeedTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				EB9795C318A441920039BCB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
